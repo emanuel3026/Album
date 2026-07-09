@@ -4,127 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Figurinhas Pokémon</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            background: linear-gradient(#0a1f5c, #1e3a8a, #0a1f5c);
-            background-attachment: fixed;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            color: white;
-            min-height: 100vh;
-        }
-
-        .top-bar {
-            background: linear-gradient(#ffcb05, #f5b800);
-            color: #3b4cca;
-            text-align: center;
-            padding: 25px 10px;
-            border-bottom: 8px solid #3b4cca;
-        }
-
-        h1 {
-            font-size: 3.2rem;
-            text-shadow: 4px 4px 0 #3b4cca;
-            letter-spacing: 3px;
-        }
-
-        .subtitle {
-            font-size: 1.4rem;
-            margin-top: 8px;
-            font-weight: bold;
-        }
-
-        .container {
-            max-width: 1100px;
-            margin: 40px auto;
-            padding: 0 20px;
-        }
-
-        .section-title {
-            text-align: center;
-            font-size: 2.4rem;
-            margin-bottom: 50px;
-            color: #ffcb05;
-            text-shadow: 2px 2px 0 #3b4cca;
-        }
-
-        .album {
-            display: flex;
-            justify-content: center;
-            gap: 40px;
-            flex-wrap: wrap;
-        }
-
-        .card {
-            width: 260px;
-            background: linear-gradient(#f0f0f0, #d0d0d0);
-            border: 8px solid #3b4cca;
-            border-radius: 18px;
-            overflow: hidden;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.6);
-            transition: all 0.4s ease;
-        }
-
-        .card:hover {
-            transform: scale(1.1) rotate(3deg);
-            box-shadow: 0 20px 35px rgba(255, 203, 5, 0.4);
-        }
-
-        .card-inner {
-            position: relative;
-            background: white;
-            padding: 15px;
-            border-bottom: 6px solid #ffcb05;
-        }
-
-        .card-inner img {
-            width: 100%;
-            height: 230px;
-            object-fit: contain;
-            border: 3px solid #ddd;
-        }
-
-        .card-number {
-            position: absolute;
-            top: 15px;
-            right: 15px;
-            background: #3b4cca;
-            color: white;
-            font-weight: bold;
-            padding: 5px 14px;
-            border-radius: 20px;
-            font-size: 1.1rem;
-        }
-
-        .card-info {
-            background: #3b4cca;
-            padding: 16px;
-            text-align: center;
-        }
-
-        .card-name {
-            color: #ffcb05;
-            font-size: 1.35rem;
-            font-weight: bold;
-        }
-
-        footer {
-            text-align: center;
-            padding: 30px;
-            background: rgba(0, 0, 0, 0.4);
-            margin-top: 60px;
-        }
-
-        @media (max-width: 600px) {
-            .card { width: 220px; }
-            h1 { font-size: 2.6rem; }
-        }
-    </style>
+    <link rel="stylesheet" href="pokemoncards.css">
 </head>
 <body>
     <header>
@@ -142,7 +22,7 @@
                 <!-- Cartinha 1 -->
                 <div class="card">
                     <div class="card-inner">
-                        <img src="imagens/56.gif" alt="Figurinha 56">
+                        <img src="imagens/56.png" alt="Figurinha 56">
                         <div class="card-number">#056</div>
                     </div>
                     <div class="card-info">
@@ -153,7 +33,7 @@
                 <!-- Cartinha 2 -->
                 <div class="card">
                     <div class="card-inner">
-                        <img src="imagens/57.gif" alt="Figurinha 57">
+                        <img src="imagens/57.png" alt="Figurinha 57">
                         <div class="card-number">#057</div>
                     </div>
                     <div class="card-info">
@@ -165,7 +45,7 @@
     </main>
 
     <footer>
-        <p>© 2026 Figurinhas Pokémon - Todos os direitos reservados</p>
+        <p>aqui ficaria um ©</p>
     </footer>
 </body>
 </html>
